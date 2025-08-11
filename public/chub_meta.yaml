@@ -30,3 +30,5 @@ config_schema:
     default: 3
     minimum: 1
     maximum: 5
+github_path: 'https://github.com/vg126/visual-scene-composer'
+
