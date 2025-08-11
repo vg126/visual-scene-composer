@@ -32,3 +32,6 @@ config_schema:
     maximum: 5
 github_path: 'https://github.com/vg126/visual-scene-composer'
 
+
+extension_id: 'visual-scene-composer-02a6da5d861a'
+
