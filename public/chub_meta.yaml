@@ -1,0 +1,32 @@
+name: "Visual Scene Composer"
+description: "Context-driven image generation for roleplay chats. Creates visual snapshots on-demand using conversation context and character references."
+creator: "vg126"
+card_image_uri: ""
+tags:
+  - "image-generation"
+  - "scene-composer" 
+  - "visual"
+  - "context-aware"
+visibility: "public"
+config_schema:
+  chub_api_key:
+    type: "string"
+    description: "Your Chub API key for image generation"
+    default: ""
+  image_quality:
+    type: "string"
+    description: "Image generation quality"
+    default: "standard"
+    enum:
+      - "standard"
+      - "high"
+  scene_style:
+    type: "string"
+    description: "Visual style for generated scenes"
+    default: "cinematic"
+  max_characters:
+    type: "number"
+    description: "Maximum characters to include in scenes"
+    default: 3
+    minimum: 1
+    maximum: 5
